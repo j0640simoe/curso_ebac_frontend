@@ -3,204 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu portal de notícias</title>
-<link rel="stylesheet" href="./main.css" />
+    <title>Site - Call Of Duty</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:ital@0;1&display=swap" rel="stylesheet">
 </head>
 <body>
-        <header>     
-            <div class="container">
-                <h1>Meu portal de notícias</h1>
-        <nav>
-            <ul>
+    <header>
+        <div class="container">
+            <h1>Call of Duty</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#login">Entrar</a>
+                    </li>
+                    <li>
+                        <a href="#reserve">Reserva</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="about">
+    <div class="container">
+        <div class="ClasseEsquerda">
+            <img src="./Imagens/call-of-duty-modern-warfare.jpg" alt="Imagem do call of duty" />
+        </div>    
+        
+        <div class="ClasseDireita">
+            <h2>A GUERRA MUDOU</h2>
+            <p>
+                Sequência direta do recordista Call of Duty®: Modern Warfare® II, o Capitão Price e a Força-Tarefa 141
+                enfrentam a ameaça definitiva.O ultranacionalista e criminoso de guerra, Vladimir Makarov, está 
+            estendendo seu domínio por todo o mundo, fazendo com que a Força-Tarefa 141 lute como nunca antes.
+            </p>
+            <p>
+                Combate é sinônimo de escolhas diferentes armamentos, diferentes caminhos através da missão. Além das missões cinemáticas da campanha Call of Duty®, o Modern Warfare® III apresenta missões de combate aberto que oferecem mais opções de escolha ao jogador.
+            </p>
+        </div>
+    </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+            <div>
+                <h3>Fale conosco</h3>
+                <form>
+                    <input type="text" placeholder="Seu nome"required />
+                    <input type="email" placeholder="Seu e-mail" required />
+                    <input type="tel" placeholder="Seu telefone (opcional)" />
+                    <textarea placeholder="Sua mensagem" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        <div>
+            <h3>RESERVE JÁ O CALL OF DUTY: MODERN WARFARE III</h3>
+            <ul class="social-links">
                 <li>
-                    <a href="#sports" title="Ir para a seção de esportes">Esportes</a>
+                    <a href="#" title="logo Activision">
+                        <img src="./Imagens/activision-logo.png" alt="logologo" />
+                    </a>
                 </li>
                 <li>
-                    <a href="#economy" title="Ir para a seção de noticias">Economia</a>
-                </li>
-                <li>
-                    <a href="#technology" title="Ir para a seção de noticias">Tecnologia</a>
-                </li>
-                <li>
-                    <a href="#entertainment" title="Ir para a seção de noticias">Entreterimento</a>
+                    <a href="#" title="logo treyarch">
+                        <img src="./Imagens/treyarch-logo.png" alt="logo treyarch" />
+                    </a>
                 </li>
             </ul>
-        </nav>
-            </div>
-        </header>
-    <section id="sports">
-    <div class="container">
-        <h2>Esportes</h2>
-        <div class="articles">
-            <article>
-            <section id="sports">
-                <div class="contain">
-                    <img src="futebol.jpg" alt="Bola de futebol no gramado">
-                <header>
-                <time class="creation-date">24/08/2023 às 18:57</time>
-            </header>
-                <h3>Grande clássio na noite</h3>
-                <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam est ullam nam aliquid dolor debitis suscipit libero rerum ea labore dolorem, autem ipsam impedit asperiores molestias ipsa aperiam molestiae accusantium!
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </div>
-            </article>
-        <article>
-            <img src="futebol-americano.jpg" alt="Jogador de futebol americano correndo com a bola na mão">
-            <header>
-                <time>23/08/2023 às 12:35</time>
-            </header>
-            <h3>Noite de Superbowl</h3>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae nisi dolore porro corrupti, suscipit culpa eaque corporis at ut quidem repellendus similique repellat, veritatis amet magnam recusandae laudantium sed blanditiis.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-        <article>
-            <img src="basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-            <header>
-                <time>22/08/2023 às 11:50</time>
-            </header>
-            <h3>Notícia sobre a NBA</h3>
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, corporis dolore ab non inventore porro, ea asperiores facere officiis vel quia exercitationem. Harum laborum sint natus voluptas maxime totam perferendis!
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-            </article>
-            <article>
-                <img src="basquete.jpg" title="Vista aérea de uma quadra de basquete" />
-                <header>
-                    <time>22/08/2023 às 11:50</time>
-                </header>
-                <h3>Notícia sobre a NBA</h3>
-                <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, corporis dolore ab non inventore porro, ea asperiores facere officiis vel quia exercitationem. Harum laborum sint natus voluptas maxime totam perferendis!
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
         </div>
     </div>
     </section>
-    <section id="economy">
-            <div class="container">
-                <h2>Economia</h2>
-            <div class="articles">
-                <article>
-                    <img src="./dolares.jpg" alt="Muitos dólares"> 
-                    <header>
-                        <time>21/08/2023 às 23:56</time>
-                    </header>
-                    <h3>Dolár em alta de 0.50%</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, cum? Eos architecto, corporis nostrum officiis nulla labore dicta eum, tempore sed similique necessitatibus impedit provident perspiciatis iure pariatur mollitia. Neque.
-                    </p>
-                    <a href="#" title="notícia completa">Ler mais</a>
-        </article>  
-            <article>  
-                    <img src="./euro.jpg" alt="Várias notas de euro">
-                <header>
-                    <time>21/08/2023 às 23:56</time>
-                </header>
-                <h3>Euro em queda de 0.40%</h3>
-                <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti voluptatum odit sunt voluptate atque laboriosam laudantium, suscipit maxime accusantium? Consequuntur autem voluptate distinctio ipsam porro quam nam sunt maxime.
-                </p>
-                <a href="#" title="Leia a notícia completa">Ler mais</a>
-                </article>
-                <article>
-                <img src="petroleo.jpg" alt="Extração de petróleo">
-                </header>
-                <time>20/08/2023 às 10:00</time>
-                </header>
-                <h3>Alta no preço do barril do petróleo</h3>
-                <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium sit exercitationem tempora sequi nesciunt quas tempore beatae eum voluptate, totam laboriosam vel a doloribus? Magnam soluta quae dolore perferendis quibusdam?
-                </p>
-                <a href="#" title="Leia a notícia completa">Leia mais</a>
-            </article>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; 2022 Activision Publishing, Inc. ACTIVISION, CALL OF DUTY, MODERN WARFARE, and CALL OF DUTY WARZONE são marcas registradas da Activision Publishing, Inc. 
+                <p>Todas as demais marcas registradas e nomes comerciais são propriedade de seus respectivos donos.</p>
+            </p>
         </div>
-    </div>
-    </section>
-    <section id="technology">
-            <div class="container">
-            <h3>Tecnologia</h3>
-            <div class="articles">
-            <article>
-    <img src="Bill Gates.png" alt="imagem do Bill Gates">
-    <header>
-        <time>26/08/2023 às 15:06</time>
-        <h4>A aposta de Bill Gates para o futuro da inteligência artificial</h4>
-        </header>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti voluptatum odit sunt voluptate atque laboriosam laudantium, suscipit maxime accusantium?
-        </p>
-        <a href="#" title="Leia a notícia completa">Ler mais</a>
-    </article>
-        <article>
-            <img src="./Cão robô.png" alt="Cão robô">
-        <header>
-        <time>12/09/2023 às 11:07</time>
-            <h4>Saiba o que faz Spot, cão-robô com tecnologia</h4>
-            </header>
-            <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti voluptatum odit sunt voluptate atque laboriosam laudantium, suscipit maxime accusantium?
-            </p>
-            <a href="#" title="Leia a notícia completa">Leia mais</a>
-        </article>
-        <article>
-            <img src="./Whatsapp.jpeg" alt="WhatsApp">
-            <header>
-            <time>03/10/2023 às 20:33</time>
-            <h4>WhatsApp lança recurso para envio de mensagens de vídeo instantâneas</h4>
-        </header>
-            <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil reiciendis adipisci beatae dignissimos excepturi nam possimus nemo id omnis ex incidunt alias dolore nostrum voluptate, quisquam repudiandae cupiditate molestias.
-            </p>
-            <a href="#" title="Leia a notícia completa">Ler mais</a>
-        </article>
-    </div>
-</div>
-</section>
-<section id="entertainment">
-    <div class="container">
-    <h4>Entreterimento</h4>
-    <div class="articles">
-    <article>
-<img src="stranger things.jpeg" alt="imagem do stranger things">
-<header>
-<time>26/08/2023 às 15:06</time>
-<h5>QUANDO ESTREIA A 5ª TEMPORADA DE STRANGER THINGS?</h5>
-</header>
-<p>
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti voluptatum odit sunt voluptate atque laboriosam laudantium, suscipit maxime accusantium?
-</p>
-<a href="#" title="Leia a notícia completa">Ler mais</a>
-</article>
-<article>
-    <img src="doutor estranho.jpg" alt="imagem do doutor estranho">
-<header>
-<time>12/09/2023 às 11:07</time>
-    <h5>Doutor Estranho no Multiverso da Loucura' ganha novo trailer durante Super Bowl</h5>
-    </header>
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae deleniti voluptatum odit sunt voluptate atque laboriosam laudantium, suscipit maxime accusantium?
-    </p>
-    <a href="#" title="Leia a notícia completa">Leia mais</a>
-</article>
-<article>
-    <img src="the big bang theory.jpg" alt="imagem do the big bang theory">
-    <header>
-    <time>03/10/2023 às 20:33</time>
-    <h5>8 MOMENTOS DE THE BIG BANG THEORY QUE NÃO ESTAVAM NO ROTEIRO</h5>
-</header>
-    <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nihil reiciendis adipisci beatae dignissimos excepturi nam possimus nemo id omnis ex incidunt alias dolore nostrum voluptate, quisquam repudiandae cupiditate molestias.
-    </p>
-    <a href="#" title="Leia a notícia completa">Ler mais</a>
-</article>
-</div>
-</div>
-    </body>
+    </footer>
+</body>
 </html>
