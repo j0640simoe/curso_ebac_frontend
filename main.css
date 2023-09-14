@@ -1,170 +1,168 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
-body > header {
-    background-color: #0d1b2a;
-    padding: 16px 0;
-    color: #f5f6fa;
-}
-
-
-header .container {
-display: flex;
-align-items: center;
-justify-content: space-between;
-}
-
-
-header li {
-    display: inline;
+header,section h2, h3,
+form, button {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-left: 16px;
 }
 
+body, input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
-header li a {
-    color: #f5f6fa ;
+html, body {
+    background-color: #1b1b1b;
+    height: 100px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 16px 0;
+    background-color: black;
+    color: #fff; 
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container,
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: #fff;
     text-decoration: none;
 }
 
 .container {
-    width: 1366px;
+    max-width: 1280px;
+    width: 100%;
     margin: 0 auto;
+    flex:1;
 }
 
-.articles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.articles article img {
-    /* height: 180px; */
-    width: 100%;
-}
-
-.articles article {
-    width: 30%;
-}
-
-#technology .articles article h4 {
-    width: 100%;
+section .container {
+    align-items: flex-start;
 }
 
 section {
-    padding: 16px 0;
-}
-
-section h2,
-.articles article {
-    margin-bottom: 16px;
-}
-
-.articles article h3 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.articles article h4 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.articles article h5 {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-section h3,
-.articles article {
-    margin-bottom: 16px;
-}
-
-section h4,
-.articles article {
-    margin-bottom: 16px;
-}
-
-.articles article a {
-    background-color: blue;
-    color: #fff;
-    padding: 8px;
-    display: inline-block;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 8px;
-}
-
-.articles article a:hover {
-    text-decoration: underline;
-}
-
-.articles article p,
-.articles article a  {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.articles article h3 {
-    font-size: 24px;
+    padding: 24px 0;
 }
 
 section h2 {
-    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+section img {
+    margin-right: 32px;
+}
+
+section {
+    color: #fff;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.social-links li {
+    list-style-type: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container img {
+    max-width: 800px;
+    width: 500px;
+    margin: 0px;
+}
+
+form input,
+form textarea, 
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
 }
 
 section h3 {
-    font-size: 32px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: normal;
 }
 
-section h4 {
-    font-size: 32px;
+form button {
+    background-color: black;
+    color: #fff;
+    border: none;
+    cursor: pointer;
 }
 
-.articles article h3 {
-    font-size: 24px;
+form button:hover {
+    background-color: #262121;
 }
 
-.articles article h4 {
-    font-size: 24px;
+input:focus, textarea:focus {
+    outline-color: #000;
 }
 
-.articles article h5 {
-    font-size: 20px;
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 14px 0;
 }
 
-
-#sports {
-    background-color: #dde5b6;
+footer .container p {
+    font-size: 12px;
 }
 
-#sports .articles article a {
-    background-color: #009432;
-} 
-
-#economy {
-    background-color: #fdf0d5;
+.social-links img {
+    /*height: 60px; */ 
+    width: 30%;
 }
 
-#economy .articles article a {
-    background-color: #ff9f1a;
+.ClasseEsquerda{
+    padding: 10px;
 }
 
-#technology {
-    background-color: #f8f9fa;
+.ClasseDireita{
+    padding: 10px;
 }
 
-#technology .articles article a {
-    background-color: #22223b;
-}
-
-#entertainment {
-    background-color : #ffe5ec;
-}
-
-#entertainment .articles article a {
-    background-color: #e27396;
+.social-links li {
+    display: inline;
 }
